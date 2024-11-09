@@ -1,0 +1,51 @@
+* {
+    font-size: 1em;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #22b14c;
+    display: flex;
+}
+
+#mae {
+    display: flex;
+}
+
+aside {
+    width: 25%;
+
+}
+
+main {
+    width: 75%;
+    border: 5px solid #cacaca;
+}
+
+header > img {
+    width: 3%;
+}
+
+header > #instagram {
+    margin-left: 70%;
+}
+
+aside > img{
+    width: 70%;
+    border-right: 5px solid #22b14c;
+    border-left: 5px solid #22b14c;
+}
+
+aside > h2 {
+    color:#22b14c;
+}
+
+button {
+    background-color: #22b14c;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-top: 5%;
+}
